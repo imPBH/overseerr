@@ -1030,7 +1030,7 @@ export class MediaRequest {
           tvdbid: tvdbId,
           seasons: this.seasons.map((season) => season.seasonNumber),
           seasonFolder: sonarrSettings.enableSeasonFolders,
-          seriesType,
+          seriesType: "standard",
           tags,
           monitored: true,
           searchNow: !sonarrSettings.preventSearch,
